@@ -1,0 +1,13 @@
+.hid{
+    display: none !important;
+}
+.highlighted_task {
+    display:none !important
+        }
+
+        .inactive-task-class {
+            background-color: red !important; /* Task background color */
+            color: darkblue; /* Text color */
+            border: 1px solid blue; /* Border styling */
+          }
+          

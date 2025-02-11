@@ -1,0 +1,30 @@
+import axios from 'axios';
+
+// Base URL for the TimeTracking API
+const BASE_URL = 'https://timetracking.trevorsadd.co.uk';
+
+// Utility function for API requests
+const apiRequest = async (method, endpoint, token = '', data = {}) => {
+    const headers = token ? { Authorization: `Bearer ${token}` } : {};
+    try {
+        const response = await axios({
+            method,
+            url: `${BASE_URL}${endpoint}`,
+            headers,
+            data,
+        });
+        return response.data;
+    } catch (error) {
+        console.error('API Error:', error.response?.data || error.message);
+        throw error.response?.data || error.message;
+    }
+};
+
+// Exported API functions
+export const loginUser = (data) => apiRequest('POST', '/login', '', data);
+
+export const getProjects = (token) => apiRequest('POST', '/project/search', token);
+
+export const getReports = (token, data) => apiRequest('POST', '/reports/GetView', token, data);
+
+export const getUsers = (token, data) => apiRequest('POST', '/Account/Getreportstousers', token, data);

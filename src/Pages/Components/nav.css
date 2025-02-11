@@ -1,0 +1,140 @@
+.max-w-screen-2xl{
+    max-width: 120% !important;
+    padding-left: 0 !important;
+} 
+
+.fixed-header {
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
+  
+
+#re{
+    min-width: auto !important;
+    margin-left: 0;
+    font-size: x-large;   
+}
+#hm{
+    margin-right: 56px;
+    font: 1em sans-serif;
+}
+#red{
+    min-width: auto !important;
+    width: 30% !important;
+    /* margin-right:  10px !important ; */
+    font-size: x-large;         
+}
+
+
+    @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+        /* Styles specific to Microsoft Edge (Chromium-based) */
+    .menu-list {
+      margin-left: 100px !important; /* Ensure no extra margin */
+    }
+    }
+    
+
+.hdr{
+    z-index: 3;
+    /* width: -webkit-fill-available; */
+
+}
+
+@media screen and (max-width: 1025px) {
+    .info_icon {
+        margin-left: 88% !important;
+        margin-top: 2% !important;
+        margin-right: 2% !important;
+        margin-bottom: 2% !important;
+    }
+    #re{
+        margin: 7px  !important;
+        margin-bottom: 0 !important;
+    } 
+    #re p{
+        padding: 0 !important;
+    }
+    #hm{
+        margin-left:7px !important;
+    }
+    #rd{
+        /* padding: 0 !important; */
+        padding-left: 0 !important;
+    }
+    .hdr{
+        /* width: 1490px !important; */
+
+    }
+
+    /* nav button svg{
+width: 50px !important;
+height: 50px !important; 
+margin: 50px !important;   }
+nav button{
+    padding: 50px ;
+} */
+    } 
+@media screen and (max-width: 668px) {
+    .info_icon {
+        margin-left: 88% !important;
+        margin-top: 2% !important;
+        margin-right: 2% !important;
+        margin-bottom: 2% !important;
+    }
+    #re{
+        margin: 7px  !important;
+        margin-bottom: 0 !important;
+    } 
+    #re p{
+        padding: 0 !important;
+    }
+    #hm{
+        margin-left:7px !important;
+    }
+    #rd{
+        /* padding: 0 !important; */
+        padding-left: 0 !important;
+    }
+
+
+    } 
+
+
+
+
+
+.drp{
+padding-right:20px !important;
+margin-left: 125px !important;
+    margin-top: 11px !important;
+}
+.drp2{
+padding-right:20px !important;
+margin-left:200px !important;
+margin-top:11px !important;
+}
+
+.drp3{
+padding-right:20px !important;
+margin-left:274px !important;
+margin-top:11px !important;
+}
+
+.drp5{
+padding-right:20px !important;
+margin-left:39px !important;
+margin-top:11px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,476 @@
+.drop {
+  border: 2px solid #dcdfe6;
+  border-radius: 5px;
+  padding: 0px;
+  z-index: 10;
+  width: 255px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  width: 250px;
+  height: 30px;
+  display: block !important;
+}
+.select2-dropdown {
+  position: relative !important;
+  left: 0px !important;
+  top: 0px !important;
+}
+.marker {
+  position: absolute;
+  top: 50px;
+  width: 2px;
+}
+
+#gantt_container {
+  height: 700px;
+}
+
+.gantt-error {
+  display: none;
+  background-color: white !important;
+}
+
+.gantt_marker .gantt_marker_content {
+  padding: 5px;
+  /* background: inherit; */
+  color: #fff !important;
+  position: absolute;
+  width: 41px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 12px;
+  opacity: 1;
+}
+
+.colorblack{
+  color: #000 !important;
+}
+
+.weekwid {
+  width: 53px !important;
+}
+body {
+  zoom: 65% !important;
+}
+.gantt_grid_data .gantt_row.odd:hover,
+.gantt_grid_data .gantt_row:hover {
+  background-color: white !important;
+}
+
+.before\:border-blue-gray-200::before {
+  border-color: rgba(211, 211, 211, 0) !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.after\:border-blue-gray-200::after {
+  border-color: rgba(211, 211, 211, 0.103) !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#popdate {
+  max-height: 20px !important;
+  margin-top: -2px !important;
+  padding-right: 7px !important;
+  padding-left: 7px !important;
+}
+#popdate2 {
+  height: 20px !important;
+  margin-top: -2px !important;
+  padding-right: 7px !important;
+  padding-left: 7px !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none !important; /* Removes the border */
+}
+
+.gantt_layout_cell.gantt_ver_scroll {
+}
+
+.gantt_cell {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.team-row {
+  background-color: darkgrey !important;
+  color: white;
+  font-weight: bold;
+}
+
+.css-qiwgdb-MuiOutlinedInput-notchedOutline {
+  border: none !important; /* Removes the border */
+}
+#poph1 {
+  text-align: left;
+  font-size: 30px;
+  font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.gantt_bar_task{
+  z-index: 20;
+
+}
+
+.input-style::placeholder {
+  color: black;
+}
+/* .adde  {
+    padding: 0;
+    position: absolute;
+    border-radius: 5px !important;
+    top: -25px;
+    padding-left: 20px;
+    line-height: 0px !important;
+}   */
+/* .adde label {
+    overflow: visible !important;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    line-height: 0px !important;
+
+} */
+.gantt_message_area {
+  top: 5px !important;
+  display: block !important;
+  background-color: white !important;
+  opacity: 10000000 !important;
+  visibility: visible !important;
+  display: none !important;
+}
+
+/* Update legend container positioning */
+#legend {
+  position: relative;
+  left: 20px;
+  top: 2%;
+  display: inline-block;
+  width: auto;
+  margin-left: 1%;
+  padding-top: 0.5%;
+}
+
+.red-hashing {
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.gantt_task_content {
+  font-size: 12px;
+  color: #fff;
+  width: 100%;
+  top: 0;
+  display: flex; /* Add flexbox */
+  align-items: center; /* Vertically center text */
+  justify-content: left; /* Horizontally center text */
+
+  cursor: pointer;
+  position: absolute;
+  white-space: nowrap;
+  text-align: left !important;
+  padding-left: 5px !important;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 14px;
+  margin-bottom: 5px;
+}
+.gantt_tree_icon {
+  display: none !important;
+}
+
+.gantt_grid_scale {
+}
+
+#adde .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-top: 10px !important;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.legend-text {
+  display: inline-block;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#adde .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 5px !important;
+  padding-top: 20px !important;
+  /* padding-bottom: 40px !important; */
+}
+
+.adde label {
+  padding-top: 10px !important;
+}
+
+#adde .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 10px !important;
+  padding-left: 10px !important;
+}
+
+#adde .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  height: 30px;
+  padding-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 10px !important;
+}
+
+.css-qiwgdb.css-qiwgdb.css-qiwgdb {
+  padding-left: 6px !important;
+  padding: 4px !important;
+}
+
+.borderRed {
+  border: 3px solid red !important;
+  /* border-radius: 5px; */
+  padding-top: 1px !important;
+  /* padding-bottom: 20px !important; */
+  /* border-radius: 10px !important; */
+}
+
+.greyed-out-row {
+  background-color: #666666 !important; /* Light grey */
+  color: #666666 !important; /* Grey text */
+  z-index: 50;
+}
+
+.greyed-out-row .gantt_task_cell {
+  border-right: grey !important;
+}
+
+.greyed-out-row .weekend {
+  background-color: transparent; /* Remove weekend highlight when greyed-out */
+}
+
+/* Apply styles only when the Gantt container has the "gantt-week-view" class */
+
+.borderwhite {
+  border: 1px solid white !important;
+  border-radius: 5px;
+  padding-top: 1px !important;
+}
+
+.MuiInputBase-root {
+  border: none !important;;
+  border-radius: 15px !important;
+}
+
+#demo-simple-select {
+  margin-bottom: 5px !important;
+}
+.gantt_grid_scale > div {
+  color: black;
+}
+
+.gantt_grid_head_cell {
+  color: black !important;
+  font-weight: 400 !important;
+}
+
+.adde2 {
+  padding: 0;
+  position: absolute;
+  border-radius: 5px !important;
+  padding-left: 20px;
+  line-height: 0px !important;
+}
+.adde2 label {
+  overflow: visible !important;
+  padding-top: 1px;
+  padding-bottom: 6px;
+  line-height: 0px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 4px !important;
+}
+
+.align-middle {
+  height: 30px !important;
+  padding-bottom: 20px !important;
+}
+
+.drop33 {
+  min-width: 700px !important;
+  max-width: 900px !important;
+}
+
+.tlt {
+  padding: 0px 10px !important;
+}
+
+thead {
+  background-color: gray !important;
+  position: sticky;
+  top: 0;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #tble table {
+    width: 70%;
+    overflow-y: scroll;
+  }
+  #tble table img {
+    max-width: none !important;
+  }
+}
+
+.w-full .min-w-\[200px\] {
+  min-width: 0 !important;
+  width: 12% !important;
+}
+
+.lightgreyhead {
+  background-color: #999999 !important;
+}
+.greyhead {
+  text-transform: capitalize;
+  background-color: #666666 !important;
+}
+.darkgreyhead {
+  background-color: rgb(67 67 67) !important;
+  width: 0% !important;
+}
+
+.bld {
+  font-weight: 800 !important;
+  font-size: medium;
+  border: none !important;
+}
+
+.table-responsive {
+  overflow-x: scroll !important;
+  width: 100% !important;
+}
+
+.table-responsive Table {
+  width: 1350px !important;
+}
+
+/* .mt-8{
+   margin-top: 10px !important;
+} */
+
+.allobtn1:hover {
+  color: #5fec13 !important;
+  border-color: #5fec13 !important ;
+}
+.allobtn2:hover {
+  color: #b97a57 !important;
+  border-color: #b97a57 !important ;
+}
+
+.no-border {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* @media screen and (max-width: 1025px) {
+    .hd{
+        width: 72.5% !important;
+
+    }
+  }
+  @media screen and (max-width: 968px) {
+    .hd{
+        width: 77.5% !important;
+
+    }
+  } */
+
+@media screen and (max-width: 1025px) {
+  .tskname {
+    width: 25% !important;
+  }
+  .hrsnme {
+    width: 25% !important;
+  }
+  .allobtn1 {
+    background-color: red !important;
+  }
+
+  .hro {
+    margin-right: 600px !important;
+  }
+}
+@media screen and (max-width: 968px) {
+  .allobtn1 {
+    background-color: red !important;
+  }
+}
+
+#deltpop .modal-content {
+  width: 85% !important;
+}
+
+.gantt_task_line.gantt_task_inline_color {
+  border-radius: 0px !important;
+  min-width: 30px;
+}
+
+.gantt_cell_tree:hover {
+  background: #fff;
+}
+
+.ddee {
+  min-width: 175px !important;
+  width: auto !important;
+}
+.css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  top: 200px !important;
+  left: 868px !important;
+}
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  top: 180px !important;
+  left: 869px !important;
+}
+.css-pwxzbm {
+  top: 181px !important;
+  left: 856px !important;
+}
+
+.ddee .MuiInputBase-root {
+  padding-left: 10px;
+}
+
+.blk {
+  margin-left: 19px !important;
+}
+
+#pading {
+  padding-right: 0 !important;
+  padding-left: 7px !important;
+}
+
+.form-select {
+  border: none !important;
+  padding: 0 !important;
+  padding-left: 5px !important;
+}
+
+.hiden {
+  display: none !important;
+}
+
+.s {
+}
